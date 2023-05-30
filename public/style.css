@@ -1,0 +1,82 @@
+.mainbar {
+    background-color: antiquewhite;
+}
+
+
+.background {
+    background-color: rgb(182, 212, 212);
+}
+
+
+.card-date {
+    font-size: 11px;
+}
+
+.card-source {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    background-color: rgb(95, 124, 124);
+    color: antiquewhite;
+}
+
+.card-title {
+    overflow: hidden;
+    height: 99px;
+    background-color: rgb(234, 194, 141);
+}
+
+.card-text {
+    overflow: hidden;
+    height: 197px;
+}
+
+
+.btn-color {
+    background-color: rgb(237, 77, 77);
+    color: rgb(239, 235, 183);
+}
+
+.btn:hover {
+    background-color: rgb(244, 25, 25);
+    color: rgb(32, 27, 27);
+}
+
+.main-page {
+    background-color: rgb(245, 166, 166);
+}
+
+.footer {
+    background-color: beige;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 3px;
+}
+
+.contact {
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: rgba(27, 26, 26, 0.821);
+}
+
+.headline, .newsheadline span{
+    position: relative;
+    height: 40px;
+}
+.newsheadline{
+    position: absolute;
+    content: '';
+    left: 0%;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(201, 180, 180);
+    margin: 0 auto;
+    animation: typing 7.5s steps(100) infinite;
+}
+
+@keyframes typing {
+100%{
+    left: 90%;
+}
+}
